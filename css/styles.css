@@ -32,7 +32,7 @@ p {
     text-align: center;
 }
 
-.gallery-link > a {
+a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -44,7 +44,7 @@ p {
     transition: all 0.3s ease-in-out;
 }
 
-.gallery-link > a:hover {
+a:hover {
     box-shadow: 2px 4px 6px black;
 }
 
@@ -57,4 +57,12 @@ code {
 .img {
     display: block;
     max-width: 225px;
+}
+
+ul {
+    list-style: none;
+}
+
+.usefulLinks li {
+    margin: 0 0 1rem;
 }
