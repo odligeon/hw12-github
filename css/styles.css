@@ -42,7 +42,6 @@ p {
     border: 1px solid black;
     padding: 1rem;
     transition: all 0.3s ease-in-out;
-
 }
 
 .gallery-link > a:hover {
@@ -53,4 +52,9 @@ code {
     background: #E7E7E7;
     border-radius: 4px;
     padding: 0 0.5rem;
+}
+
+.img {
+    display: block;
+    max-width: 225px;
 }
